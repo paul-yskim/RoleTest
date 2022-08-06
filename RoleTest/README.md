@@ -24,7 +24,7 @@
 
 
 
-```puml
+```plantuml
 @startuml
 IPermission<|--IRead
 IRead<|--IWrite
