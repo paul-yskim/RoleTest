@@ -18,27 +18,20 @@
 
  
 
-| 600    | ... | ... | ... | 7   | 6   | 5   | 4   | 3   | 2   | 1   | 0   |
+| 600    | ... | ... | ... | QQQ | XXX | YYY | IDelete | IUpdate   | ICreate   | IRead   | 0   |
 |--------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
- | 1<<600 | ... | ... | ... | 128 | 64  | 32  | 16  | 8   | 4   | 2   | 1   |
-
+| 600    | ... | ... | ... | 7   | 6   | 5   | 4   | 3   | 2   | 1   | 0   |
+| 1<<600 | ... | ... | ... | 128 | 64  | 32  | 16  | 8   | 4   | 2   | 1   |
 
 
 ```mermaid
 classDiagram
-Class01 <|-- AveryLongClass : Cool
-<<Interface>> Class01
-Class09 --> C2 : Where am i?
-Class09 --* C3
-Class09 --|> Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-class Class10 {
-  <<service>>
-  int id
-  size()
-}
+IPermssion <|-- IRead  
+IRead <|-- ICreate
+IRead <|-- IUpdate 
+IUpdate <|-- IDelete 
+ICreate <|-- IDelete 
 ```
+
+User의 권한이 값이 8이라면 수정 권한을 갖는다. 수정권한과 읽기 권한을 모두 갖기 위해서는 10이 필요하지만
+수정권한은 읽기 권한을 상속함으로 비록 갖는 값이 8이지만 실제로 10을 갖는 것과 같은 효과를 갖는다.
