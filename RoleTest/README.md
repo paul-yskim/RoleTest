@@ -24,9 +24,9 @@
 
 
 
-```plantuml
+```puml
 @startuml
-IPermission<|--IRead
-IRead<|--IWrite
+a->b
+b->c
 @enduml
 ```
