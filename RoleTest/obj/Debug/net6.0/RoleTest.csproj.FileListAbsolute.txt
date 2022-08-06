@@ -1,0 +1,15 @@
+D:\src\RoleTest\RoleTest\bin\Debug\net6.0\RoleTest.exe
+D:\src\RoleTest\RoleTest\bin\Debug\net6.0\RoleTest.deps.json
+D:\src\RoleTest\RoleTest\bin\Debug\net6.0\RoleTest.runtimeconfig.json
+D:\src\RoleTest\RoleTest\bin\Debug\net6.0\RoleTest.dll
+D:\src\RoleTest\RoleTest\bin\Debug\net6.0\ref\RoleTest.dll
+D:\src\RoleTest\RoleTest\bin\Debug\net6.0\RoleTest.pdb
+D:\src\RoleTest\RoleTest\obj\Debug\net6.0\RoleTest.csproj.AssemblyReference.cache
+D:\src\RoleTest\RoleTest\obj\Debug\net6.0\RoleTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\src\RoleTest\RoleTest\obj\Debug\net6.0\RoleTest.AssemblyInfoInputs.cache
+D:\src\RoleTest\RoleTest\obj\Debug\net6.0\RoleTest.AssemblyInfo.cs
+D:\src\RoleTest\RoleTest\obj\Debug\net6.0\RoleTest.csproj.CoreCompileInputs.cache
+D:\src\RoleTest\RoleTest\obj\Debug\net6.0\RoleTest.dll
+D:\src\RoleTest\RoleTest\obj\Debug\net6.0\ref\RoleTest.dll
+D:\src\RoleTest\RoleTest\obj\Debug\net6.0\RoleTest.pdb
+D:\src\RoleTest\RoleTest\obj\Debug\net6.0\RoleTest.genruntimeconfig.cache
